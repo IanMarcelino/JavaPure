@@ -4,6 +4,5 @@ public class App {
         Pessoa pessoa2 = new Pessoa (1.80,82.0,2004,"Ian");
         pessoa2.mostraratributo();
     }
-    asgdhisaihdbsahjdhvsauhd
         
 }
