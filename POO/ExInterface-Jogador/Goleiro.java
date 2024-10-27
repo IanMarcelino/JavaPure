@@ -12,8 +12,5 @@ public class Goleiro implements Movimento {
 
     public  void andar(){
         System.out.println("andando");
-    }
-
-
-    
+    }    
 }
