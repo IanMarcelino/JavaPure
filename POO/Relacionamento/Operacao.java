@@ -1,3 +1,4 @@
+package POO.Relacionamento;
 public class Operacao {
   private String tipo;
   private double valor;
