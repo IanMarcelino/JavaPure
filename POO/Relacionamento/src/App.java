@@ -7,8 +7,8 @@ public class App {
         Conta conta2 = new Conta(cliente2, 200);
 
         Operacao o1 = new Operacao("D", 100);
-        // conta1.fazOperacao(o1);
-        // conta1.mostrarConta();
+        conta1.fazOperacao(o1);
+        conta1.mostrarConta();
 
         Operacao o2 = new Operacao("R", 200);
         conta2.fazOperacao(o2);
