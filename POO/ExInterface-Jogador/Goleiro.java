@@ -1,4 +1,4 @@
-public abstract  class Goleiro implements Movimento {
+public class Goleiro implements Movimento {
     public void defender(){
         System.out.println("defendendo");
     }

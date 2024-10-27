@@ -1,12 +1,18 @@
-public abstract class Atacante implements Movimento {
-    public void defender(){
+public class Atacante implements Movimento {
+    public void defender() {
         System.out.println("falta");
     }
-    public void chutar(){
+
+    public void chutar() {
         System.out.println("chutou");
     }
-    public abstract void correr();
 
-    public abstract void andar();
-    
+    public void correr() {
+        System.out.println("correndo");
+    }
+
+    public void andar() {
+        System.out.println("andando");
+    }
+
 }
