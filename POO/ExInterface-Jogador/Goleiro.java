@@ -6,8 +6,14 @@ public abstract  class Goleiro implements Movimento {
         System.out.println("chutou");
     }
     
-    public abstract void correr();
+    public void correr(){
+        System.out.println("correndo");
+    }
 
-    public abstract void andar();
+    public  void andar(){
+        System.out.println("andando");
+    }
+
+
     
 }
