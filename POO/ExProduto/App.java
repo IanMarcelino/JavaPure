@@ -45,6 +45,7 @@ public class App {
         // referencia do objeto na memoria, pois não ta sendo usado get.
         System.out.println("O produto mais leve: ");
         produtomaisLeve.mostrarInfo();
+        System.out.println("teste");
 
     }
 }
